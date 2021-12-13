@@ -29,3 +29,4 @@ npm run report:clean
 É possivel executar o teste em modo interativo:
 npm run cy:open
 
+Relatórios:  https://rodrigoflti.github.io/desafio2/
