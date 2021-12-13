@@ -1,6 +1,6 @@
 
 const el = require('./elements').ELEMENTS
-const articleName = 'Artigos sobre Cypress' + new Date().getUTCDay()
+const articleName = 'Artigos sobre Cypress' + new Date().getTime()
 
 class Articles {
   acessarOFormulario () {
