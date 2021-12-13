@@ -10,9 +10,8 @@ Utilizado o sistema de publicação de artigos https://demo.realworld.io/#/
 ![9n6IM0sjxG](https://user-images.githubusercontent.com/54040974/145737888-fe5e396b-57be-4233-a76a-1c359d8a97bf.gif)
 
 
-
 Instalando as dependências e execução
-A instalação a seguir será referente ao sistema operacional Ubuntu 20.04
+A instalação a seguir será referente ao sistema operacional Ubuntu
 
 Instalar a linguagem (Node.js) que contempla o gerenciador de pacotes (NPM): https://nodejs.org
 
