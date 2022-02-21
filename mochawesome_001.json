@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-02-14T12:12:32.665Z",
-    "end": "2022-02-14T12:12:37.514Z",
-    "duration": 4849,
+    "start": "2022-02-21T12:12:58.952Z",
+    "end": "2022-02-21T12:13:03.813Z",
+    "duration": 4861,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "458f4d4d-46fb-4f51-8652-2443659301b9",
+      "uuid": "b450cf2a-520c-4404-9579-a2a57d462e01",
       "title": "",
       "fullFile": "cypress/tests/criação-de-artigo.spec.js",
       "file": "cypress/tests/criação-de-artigo.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "44623a44-b453-49dd-bf31-dd3f323c6c5a",
+          "uuid": "7f3df781-61c5-4cb2-8031-c04f358a7a78",
           "title": "Articles",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Cadastro de novo artigo com sucesso",
               "fullTitle": "Articles Cadastro de novo artigo com sucesso",
               "timedOut": null,
-              "duration": 4794,
+              "duration": 4834,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "_articles.default.acessarOFormulario();\n_articles.default.preencherFormulario();\n_articles.default.submeterFormulario();\n_articles.default.verificarSeOArtigoFoiCriado();",
               "err": {},
-              "uuid": "becc5391-f96e-4dd4-80e8-8538d23f9e7b",
-              "parentUUID": "44623a44-b453-49dd-bf31-dd3f323c6c5a",
+              "uuid": "652a517d-615c-46db-a098-05da61932947",
+              "parentUUID": "7f3df781-61c5-4cb2-8031-c04f358a7a78",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "becc5391-f96e-4dd4-80e8-8538d23f9e7b"
+            "652a517d-615c-46db-a098-05da61932947"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 4794,
+          "duration": 4834,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
