@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-04-11T12:15:22.108Z",
-    "end": "2022-04-11T12:15:24.582Z",
-    "duration": 2474,
+    "start": "2022-04-18T12:16:42.718Z",
+    "end": "2022-04-18T12:16:45.356Z",
+    "duration": 2638,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "7dd1bcf5-1874-4699-b61b-db4ca8895a22",
+      "uuid": "3ca8eb42-038d-4b33-8781-f0177c05fe8a",
       "title": "",
       "fullFile": "cypress/tests/login-valido-com-artigo.spec.js",
       "file": "cypress/tests/login-valido-com-artigo.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "d7728b76-767c-408a-8b4b-b9ad3c9487e3",
+          "uuid": "ebd018e5-d36c-434b-ac62-8c0269d74563",
           "title": "Logins com artigo publicado",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Login valido com artigo publicado",
               "fullTitle": "Logins com artigo publicado Login valido com artigo publicado",
               "timedOut": null,
-              "duration": 2432,
+              "duration": 2565,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.loginValido();\ncy.visit('/');\ncy.contains('Read more...').should('be.visible');",
               "err": {},
-              "uuid": "89ac5f35-e9c8-403a-89d6-854758bbfbe3",
-              "parentUUID": "d7728b76-767c-408a-8b4b-b9ad3c9487e3",
+              "uuid": "24f15105-15c8-49a1-af12-2931ae8bdf30",
+              "parentUUID": "ebd018e5-d36c-434b-ac62-8c0269d74563",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "89ac5f35-e9c8-403a-89d6-854758bbfbe3"
+            "24f15105-15c8-49a1-af12-2931ae8bdf30"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2432,
+          "duration": 2565,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
