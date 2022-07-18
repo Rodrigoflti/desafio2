@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-07-11T12:18:07.199Z",
-    "end": "2022-07-11T12:18:09.293Z",
-    "duration": 2094,
+    "start": "2022-07-18T12:16:20.351Z",
+    "end": "2022-07-18T12:16:22.095Z",
+    "duration": 1744,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "74d3fd5e-d0b8-49e1-aab4-7bf0c00b0ae7",
+      "uuid": "2fd7cd3c-f002-4cb3-b7fd-24872c8eb883",
       "title": "",
       "fullFile": "cypress/tests/login-em-branco.spec.js",
       "file": "cypress/tests/login-em-branco.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "9722f14a-2f73-4dba-a184-d015493328c9",
+          "uuid": "c5f54adb-375b-465f-84dd-06e0d97ff2f9",
           "title": "Login em Branco",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Login com dados em branco",
               "fullTitle": "Login em Branco Login com dados em branco",
               "timedOut": null,
-              "duration": 2080,
+              "duration": 1729,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.semDados();\ncy.contains(\"email can't be blank\").should('be.visible');",
               "err": {},
-              "uuid": "78e6d5be-0ca4-436c-8f2a-b3acdc8357f2",
-              "parentUUID": "9722f14a-2f73-4dba-a184-d015493328c9",
+              "uuid": "f79c8452-8d22-4df7-9604-5bbb4f4b08e6",
+              "parentUUID": "c5f54adb-375b-465f-84dd-06e0d97ff2f9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "78e6d5be-0ca4-436c-8f2a-b3acdc8357f2"
+            "f79c8452-8d22-4df7-9604-5bbb4f4b08e6"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2080,
+          "duration": 1729,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
