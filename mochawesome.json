@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-10-17T12:24:24.030Z",
-    "end": "2022-10-17T12:24:26.980Z",
-    "duration": 2950,
+    "start": "2022-10-24T12:21:38.290Z",
+    "end": "2022-10-24T12:21:41.018Z",
+    "duration": 2728,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "da288a2d-53b1-4a09-b8a1-58a029c83649",
+      "uuid": "18174cc4-818e-4d01-9ca0-87de7b4821e3",
       "title": "",
       "fullFile": "cypress/tests/acessar-feed-global.spec.js",
       "file": "cypress/tests/acessar-feed-global.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6b1ecdd3-6992-4d15-8d88-618c3e772ba2",
+          "uuid": "43d4d4e4-95b4-4936-bd13-8e8543ffb6e9",
           "title": "Acessar o feed global ",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Acessar o feed global após logado ",
               "fullTitle": "Acessar o feed global  Acessar o feed global após logado ",
               "timedOut": null,
-              "duration": 2895,
+              "duration": 2684,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.loginValido();\ncy.visit('/');\ncy.contains('Global Feed').click();",
               "err": {},
-              "uuid": "95b794c1-6767-4ce2-80e1-108063626a5e",
-              "parentUUID": "6b1ecdd3-6992-4d15-8d88-618c3e772ba2",
+              "uuid": "b2f18606-cfe8-45dc-acb7-d14acc3be085",
+              "parentUUID": "43d4d4e4-95b4-4936-bd13-8e8543ffb6e9",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "95b794c1-6767-4ce2-80e1-108063626a5e"
+            "b2f18606-cfe8-45dc-acb7-d14acc3be085"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2895,
+          "duration": 2684,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
