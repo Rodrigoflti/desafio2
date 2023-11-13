@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-11-11T12:12:50.505Z",
-    "end": "2023-11-11T12:12:53.040Z",
-    "duration": 2535,
+    "start": "2023-11-13T12:14:46.245Z",
+    "end": "2023-11-13T12:14:49.052Z",
+    "duration": 2807,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "65b1b6d9-c80f-4e3b-89f0-173819b6a1e0",
+      "uuid": "a80a864f-c055-48e7-84ab-baebcdb6db33",
       "title": "",
       "fullFile": "cypress/tests/login-valido.spec.js",
       "file": "cypress/tests/login-valido.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "dff14a8e-8b68-4cc9-b0d8-97f6c1da211f",
+          "uuid": "4933fc22-f22f-469b-8550-957c542027f1",
           "title": "Logins validos sem artigos no feed",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Login valido sem artigos no feed",
               "fullTitle": "Logins validos sem artigos no feed Login valido sem artigos no feed",
               "timedOut": null,
-              "duration": 2512,
+              "duration": 2790,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.semFeed();\ncy.contains('No articles are here... yet.').should('be.visible');",
               "err": {},
-              "uuid": "eebb4a65-991a-4738-a9d7-377a1372631c",
-              "parentUUID": "dff14a8e-8b68-4cc9-b0d8-97f6c1da211f",
+              "uuid": "6c1f94db-7996-4f32-bc50-f9ba371de426",
+              "parentUUID": "4933fc22-f22f-469b-8550-957c542027f1",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "eebb4a65-991a-4738-a9d7-377a1372631c"
+            "6c1f94db-7996-4f32-bc50-f9ba371de426"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 2512,
+          "duration": 2790,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
