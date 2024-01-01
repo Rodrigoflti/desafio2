@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2023-12-25T12:13:42.759Z",
-    "end": "2023-12-25T12:13:44.309Z",
-    "duration": 1550,
+    "start": "2024-01-01T12:14:00.382Z",
+    "end": "2024-01-01T12:14:02.151Z",
+    "duration": 1769,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "9aadb200-8d79-4576-bb07-4da28778fdbc",
+      "uuid": "6363bdfc-a477-4656-ab76-1574b176e241",
       "title": "",
       "fullFile": "cypress/tests/login-invalido.spec.js",
       "file": "cypress/tests/login-invalido.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "75c0a576-988b-4da2-9b4c-44e053b691fd",
+          "uuid": "4b548704-4006-48f0-b644-84fe39b146b4",
           "title": "Login com dados inválidos",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Login com credenciais inválidas ",
               "fullTitle": "Login com dados inválidos Login com credenciais inválidas ",
               "timedOut": null,
-              "duration": 1533,
+              "duration": 1748,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.invalido();\ncy.contains('email or password is invalid').should('be.visible');",
               "err": {},
-              "uuid": "08281549-9636-4125-9397-b20573ed6f1b",
-              "parentUUID": "75c0a576-988b-4da2-9b4c-44e053b691fd",
+              "uuid": "2cd90883-4314-4427-8894-9ba018b2bee8",
+              "parentUUID": "4b548704-4006-48f0-b644-84fe39b146b4",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "08281549-9636-4125-9397-b20573ed6f1b"
+            "2cd90883-4314-4427-8894-9ba018b2bee8"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1533,
+          "duration": 1748,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
